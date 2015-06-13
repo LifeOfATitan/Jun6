@@ -67,26 +67,28 @@ public class MainActivity extends AppCompatActivity {
 
 //                String minutes = getString("Best Dialog Ever","Enter the Password To proceed");
 
-                while (i < 3){
-                    Integer answers[] = getInt("Math Challenge",questions[i]);
-                     if
+
+                do{
+                    int answers = getInt("Integer Challenge",questions[i]);
                     ++i;
 
+                }while (i < 3);
 
-                }
+                do{
+                    double answers = getDouble("Double Challenge", questions[i]);
+                    ++i;
 
+                }while (i < 6 & i > 3 );
 
-
-
-
-
-
-
+                do{
+                    String answers = getString("General Knowledge", questions[i]);
+                    ++i;
+                }while (i < 9 & i > 6);
 
 
 
             }
-//        }
+
 
 
 //        //-----------------------------
