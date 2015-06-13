@@ -3,7 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="hint">Type in the Secret Code (@100%)</string>
+    <string name="hint">What is your Answer Human</string>
     <string name="ok">OK</string>
     <string name="button_text">Click Me....Slowly</string>
 </resources>
